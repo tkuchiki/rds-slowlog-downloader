@@ -24,7 +24,7 @@ Flags:
   --aws-config=AWS-CONFIG      AWS CLI Config file
   --instance-ids=INSTANCE-IDS  RDS instance IDs (comma separated)
   --config-file="/tmp/rds-slowlog-downloader.conf"
-                               Config gile
+                               Config(Position) file
   --output=/tmp/instance_id.slowquery.log
                                Output to slowlog
   --version                    Show application version.

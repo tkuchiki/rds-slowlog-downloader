@@ -20,7 +20,7 @@ var (
 	region             = kingpin.Flag("region", "AWS region").String()
 	awsConfig          = kingpin.Flag("aws-config", "AWS CLI Config file").String()
 	instanceIDs        = kingpin.Flag("instance-ids", "RDS instance IDs (comma separated)").String()
-	configFile         = kingpin.Flag("config-file", "Config gile").Default(defaultConfig).String()
+	configFile         = kingpin.Flag("config-file", "Config(Position) file").Default(defaultConfig).String()
 	outputSlowlog      = kingpin.Flag("output", "Output to slowlog").PlaceHolder(defaultSlowlog).String()
 )
 
